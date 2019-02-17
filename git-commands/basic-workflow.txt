@@ -1,0 +1,35 @@
+# Basic Workflow
+
+## Verifica o estado do repositório e a área de staging
+git status
+
+## Status resumido
+git status –s
+git status –short
+
+## Adiciona arquivos ao staging
+git add file.txt
+
+## Adiciona todos os arquivos modificados ao staging de uma vez
+git add .
+git add –A
+
+## Cria um commit diretamente com todos os arquivos modificados
+git commit –a
+
+## Incluir a mensagem de commit inline
+git commit -m "First Commit"
+
+## Adiciona alterações no commit anterior (use com cuidado)
+git commit –amend
+
+## Envia as alterações para o repositório remoto, onde origin é o remote e master o branch
+git push origin master
+
+## Baixa commits do repositório remoto
+git pull origin
+
+## Atualiza as referências com um repositório remoto
+git fetch origin
+
+------------------------------------------------------------------------

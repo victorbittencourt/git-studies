@@ -1,0 +1,16 @@
+# Repositories
+
+## Cria o repositório no diretório atual
+git init
+
+## Cria um repositório bare
+git init --bare
+
+## Sincronizando com o GitHub
+git remote add origin git@github.com:victorbittencourt/git-studies.git
+git push -u origin master
+
+## Clonando um repositório remoto
+git clone git@github.com:victorbittencourt/git-studies.git
+
+------------------------------------------------------------------------

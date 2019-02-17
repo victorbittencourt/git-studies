@@ -1,0 +1,18 @@
+# Configurations
+
+## Configurar nome e e-mail
+git config --global user.name "Victor Bittencourt"
+git config --global user.email victor.bittencourt@email.com.br
+
+## Listar as configurações existentes
+git config --list
+git config –l
+
+## Listar somente as configurações globais
+git config --global -l
+
+## Criando a chave ssh
+ssh-keygen -t rsa -b 4096 -C victor.bittencourt@email.com.br
+ssh-add ~/.ssh/id_rsa
+
+------------------------------------------------------------------------
